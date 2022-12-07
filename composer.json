@@ -1,13 +1,21 @@
 {
     "name": "yangchao/log-viewer",
-    "description": "日志查看操作",
+    "description": "简单的日志分页，文件树状。不依赖任何框架都可使用",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "阿超"
+            "name": "阿超",
+			"email": "yc_1224@163.com"
         }
     ],
+	"autoload": {
+		"psr-4": {
+            "LogViewer\\": "src/"
+        }
+	},
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+		"php" : ">=5.6.0"
+	}
 }
