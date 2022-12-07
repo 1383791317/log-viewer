@@ -1,0 +1,13 @@
+{
+    "name": "yangchao/log-viewer",
+    "description": "日志查看操作",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "阿超"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
