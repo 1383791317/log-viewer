@@ -10,7 +10,7 @@ namespace log_viewer;
 
 class Test
 {
-    public function test()
+    public function read()
     {
         /**
          * 文件分页
@@ -35,4 +35,15 @@ class Test
         $class->clear('D:\projects\log-viewer\LogViewer.php');
     }
 
+    public function write()
+    {
+        $class = WriteLog::instance();
+
+        $class->record('1');
+        $class->record('2');
+
+        $class->info('test','3');
+        $class->waring('test','3');
+        $class->error('test','3');
+    }
 }
