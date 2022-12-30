@@ -6,7 +6,7 @@
  *  DATE   : 2022/12/5
  * ------------------------
  */
-namespace log_viewer\exception;
+namespace yangchao\log_viewer\exception;
 
 class LogViewerException extends \Exception
 {

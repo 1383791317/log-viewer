@@ -6,7 +6,7 @@
  *  DATE   : 2022/12/29
  * ------------------------
  */
-namespace log_viewer;
+namespace yangchao\log_viewer;
 
 class WriteLog
 {

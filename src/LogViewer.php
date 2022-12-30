@@ -6,9 +6,9 @@
  *  DATE   : 2022/12/5
  * ------------------------
  */
-namespace log_viewer;
+namespace yangchao\log_viewer;
 
-use log_viewer\exception\LogViewerException;
+use yangchao\log_viewer\exception\LogViewerException;
 
 class LogViewer
 {
